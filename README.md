@@ -1,6 +1,6 @@
-# Federated Learning with Iris Dataset
+# Federated Learning with Credit score Dataset
 
-This project demonstrates federated learning using TensorFlow Federated (TFF) with the Iris dataset. It simulates multiple clients training a shared model while keeping their data private.
+This project demonstrates federated learning using TensorFlow Federated (TFF) with the Credit score dataset. It simulates multiple clients training a shared model while keeping their data private.
 
 ## Requirements
 
@@ -31,7 +31,7 @@ python model.py
 ```
 
 The code will:
-1. Load and partition the Iris dataset among simulated clients
+1. Load and partition the Credit score dataset among simulated clients
 2. Train a federated model using TFF
 3. Evaluate the global model on test data
 4. Save the trained model weights
